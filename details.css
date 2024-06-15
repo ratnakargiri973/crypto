@@ -1,0 +1,29 @@
+.desc-container{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: 32.3rem;
+    width: 100%;
+}
+.img-div img{
+    width: 20rem;
+    margin-left: 2rem;
+}
+.desc-price{
+    display: flex;
+    flex-direction:  row;
+    align-items: center;
+    justify-content: space-around;
+    /* margin-bottom: 2rem; */
+    font-weight: bold;
+}
+.content-div{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start;
+    align-items: center; */
+    gap: 1rem;
+    margin-right: 2rem;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Crypto Coins</title>
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="search.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="left">
+         <img src="logo.png" alt="logo" id="logo">
+         <h1 id="head-title">CryptoView</h1>
+        </div>
+        <button class="search-btn" id="search-btn">Search</button>
+    </nav>
+    <section>
+        <div class="form-result">
+    <div class="form-container">
+        <h1>Search</h1>
+        <div id="search-form">
+           <input type="text" placeholder="Enter Coin Name..." id="search">
+           <button id="submit" onclick="searchReasult()">Search</button>
+        </div>
+    </div>
+    <hr>
+    <div class="search-results" id="search-results">
+    </div>
+</div>
+</section>
+<footer class="footer-section">
+    <div class="footer-container">
+    <p>© CryptoView | Developed by Aayush and Team...</p>
+    <div class="github">
+        <img src="git-logo.png" alt="" id="git-logo">
+    </div>
+</div>
+</footer>
+
+
+    <script src="common.js"></script>
+    <script src="search.js"></script>
+</body>
+</html>

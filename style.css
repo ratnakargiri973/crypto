@@ -1,0 +1,75 @@
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+.left-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-left: 3rem;
+}
+#main-title{
+    font-size: 2rem;
+}
+.left-item p{
+    font-size: 1.3rem;
+}
+#main-img{
+    width: 80%;
+    margin-top: 10rem;
+    margin-left: 3rem;
+}
+.main-container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    overflow-x: hidden;
+    /* width: fit-content; */
+    
+}
+.card-image{
+    width: 2.5rem;
+}
+.coin_card{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1.5rem;
+    min-width: 25rem;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.flex-container {
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+  }
+.flex-horizontal{
+   
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    animation: slide 20s linear infinite alternate;
+    position: relative;
+}
+@keyframes slide {
+    0% {
+     right:0px;
+    }
+  
+    100% {
+      right: 100%;
+    }
+  }
+  #topCoin{
+    font-size: 2rem;
+    color: rgb(220, 167, 11);
+  }
